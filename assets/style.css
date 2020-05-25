@@ -62,8 +62,35 @@
    border: 1px solid #e6a3a3;
 }
 
+.history {
+   width: 80%;
+   margin: 30px auto 0 auto;
+   overflow: scroll;
+   text-align: center;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+   width: 100%;
+   border: 1px solid #ddd;
+}
+th,
+td {
+   text-align: center;
+   padding: 16px;
+}
+th {
+   background-color:#e6a3a3;
+   color: black;
+}
+tr:nth-child(even) {
+   background-color: #c2bbbb;
+}
 @media screen and (max-width: 513px) {
-   .button {
+ .button {
        padding: 10px;
-   }
+ }
+ .history {
+       width: 100%;
+ }
 }
